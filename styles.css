@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;
+  flex-wrap: wrap;               /* allow items to move to next row */
+  justify-content: space-between;/* space between items, edges touch screen */
+  gap: 10px;                     /* optional: gap between rows when wrapped */
+  padding: 10px;
+}
+
+.item {
+  flex: 0 0 auto;                /* do not shrink, keep natural size */
+  background-color: #4caf50;
+  color: white;
+  padding: 20px 30px;
+  font-size: 18px;
+  border-radius: 8px;
+  text-align: center;
+}
